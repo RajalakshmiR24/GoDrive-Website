@@ -1,12 +1,12 @@
-import img1 from '../assets/images/home-img.png'
+import img1 from '../assets/images/home-img.png';
 
 const Home = () => {
   return (
     <div className="relative min-h-screen bg-cover bg-center" style={{ backgroundImage: `url(${img1})` }}>
-      <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-black bg-opacity-50 backdrop-blur-md border border-white border-opacity-10 shadow-md rounded-lg p-6 max-w-md w-full sm:max-w-lg md:max-w-xl lg:max-w-2xl xl:max-w-3xl">
-        <h2 className="text-2xl md:text-3xl lg:text-4xl font-semibold text-white mb-6 text-center">Book Your Trip</h2>
+      <div className="absolute top-1/2 left-10 md:left-20 lg:left-40 transform -translate-y-1/2 bg-white bg-opacity-20 backdrop-blur-md border border-white border-opacity-30 shadow-md rounded-lg p-6 max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg w-full">
+        <h2 className="text-2xl md:text-3xl lg:text-4xl font-semibold text-black mb-6 text-center">Book Your Trip</h2>
         <div className="mb-4">
-          <label className="block text-white text-sm md:text-base lg:text-lg font-bold mb-2" htmlFor="starting-location">
+          <label className="block text-black text-sm md:text-base lg:text-lg font-bold mb-2" htmlFor="starting-location">
             Starting Location
           </label>
           <input
@@ -17,7 +17,7 @@ const Home = () => {
           />
         </div>
         <div className="mb-6">
-          <label className="block text-white text-sm md:text-base lg:text-lg font-bold mb-2" htmlFor="destination">
+          <label className="block text-black text-sm md:text-base lg:text-lg font-bold mb-2" htmlFor="destination">
             Destination
           </label>
           <input
