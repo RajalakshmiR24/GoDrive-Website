@@ -88,7 +88,7 @@ const Register = () => {
           />
         </div>
         <div className="flex justify-between items-center text-sm text-gray-600">
-          <a href="/login" className="hover:underline">Already have an account? Sign in</a>
+          <a href="/signin" className="hover:underline">Already have an account? Sign in</a>
         </div>
       </AuthForm>
     </div>

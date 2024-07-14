@@ -12,7 +12,7 @@ import NotFound from '../components/Pages/NotFound';
 function AppRoutes() {
   const location = useLocation();
 
-  const hideNavbarPaths = ['/login', '/signup', '/forgot-password', '*'];
+  const hideNavbarPaths = ['/sigin', '/signup', '/forgot-password', '*'];
   const shouldHideNavbar = hideNavbarPaths.includes(location.pathname);
 
   return (
@@ -23,7 +23,7 @@ function AppRoutes() {
         <Route path="/about" element={<About />} />
         <Route path="/help" element={<Help />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/login" element={<Login />} />
+        <Route path="/signin" element={<Login />} />
         <Route path="/signup" element={<Register />} />
         <Route path="/forgot-password" element={<ForgotPassword />} />
         <Route path="*" element={<NotFound />} />

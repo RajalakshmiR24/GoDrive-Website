@@ -28,7 +28,7 @@ const ForgotPassword = () => {
         />
         <SubmitButton label="Reset Password" />
         <div className="flex justify-between items-center text-sm text-gray-600 mt-4">
-          <a href="/login" className="hover:underline">Back to Login</a>
+          <a href="/signin" className="hover:underline">Back to Login</a>
         </div>
       </AuthForm>
     </div>

@@ -53,7 +53,7 @@ const Navbar = () => {
           </div>
         </div>
         <div className={`sm:flex ${isMobileMenuOpen ? 'flex flex-col mt-4 sm:mt-0' : 'hidden'} sm:flex-row sm:items-center sm:space-x-4 w-full sm:w-auto`}>
-          <Link to="/login" className="py-2 sm:py-0">
+          <Link to="/signin" className="py-2 sm:py-0">
             <button className="text-white bg-transparent border border-white hover:bg-gray-800 rounded px-4 py-2 transition duration-300 w-full sm:w-auto">
               Login
             </button>

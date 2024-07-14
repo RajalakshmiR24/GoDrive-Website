@@ -9,7 +9,7 @@ const DriverDashboard = () => {
     console.log('Logout clicked');
 
     // Redirect to login page
-    navigate('/login');
+    navigate('/signin');
   };
 
   return (
